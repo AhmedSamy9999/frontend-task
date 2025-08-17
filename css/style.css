@@ -242,15 +242,22 @@ body {
   transition: all 0.3s;
 }
 
+.stats-section {
+  background-color: #fff;
+}
+
+.stats-icon {
+  margin-bottom: 1rem;
+}
 .stats-number {
   font-size: 48px;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--font-color);
 }
 
 .stats-label {
   font-size: 18px;
-  color: var(--dark);
+  color: var(--font-color);
   font-weight: 600;
 }
 
