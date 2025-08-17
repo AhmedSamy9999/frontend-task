@@ -270,13 +270,13 @@ body {
 
 .form-control {
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid #e1e5eb;
 }
 
 .form-control:focus {
-  border-color: var(--secondary);
-  box-shadow: 0 0 0 0.25rem rgba(58, 157, 202, 0.25);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 0.25rem rgba(137, 122, 227, 0.25);
 }
 
 .about-image {
@@ -611,4 +611,59 @@ body {
   font-weight: 300;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#contact {
+  background-color: #fff;
+}
+
+.contact-form {
+  background-color: var(--secondary-bg-section);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.contact-heading {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--font-color);
+  margin-bottom: 0.5rem;
+}
+
+.contact-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--font-color-1);
+}
+
+.form-header {
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.form-heading {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--font-color);
+}
+
+.form-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--font-color-1);
 }
