@@ -1,0 +1,126 @@
+/* Hero Section Styles */
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+:root {
+  --primary: #897ae3;
+  --primary-hover: #9d8bff;
+  --primary-active: #7f6fd8;
+  --secondary-bg-section: #e5e2f7;
+  --secondary: #3a9dca;
+  --font-color: #101840;
+  --font-color-1: #6d738f;
+  --divider-color: #e6e8f0;
+  --accent: #f8a72a;
+  --light: #f8f9fa;
+  --dark: #1e3a5f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Almarai", sans-serif;
+  background-color: #f5f9fc;
+  color: #333;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+.hero-section-prosthetic-care {
+  background-color: var(--font-color);
+  color: white;
+  padding: 120px 0;
+  position: relative;
+}
+
+.hero-section-prosthetic-care h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-section-prosthetic-care h3 {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hero-section-prosthetic-care p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .hero-section-prosthetic-care h1 {
+    font-size: 36px;
+  }
+}
+
+.hero-section-prosthetic-care-content {
+  max-width: 600px;
+  margin: 0 1% 0 auto;
+  text-align: right;
+}
+
+.hero-section-prosthetic-care-image-container {
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45%;
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .hero-image-container {
+    display: none;
+  }
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Care Section Styles */
+.care-section {
+  padding: 80px 0;
+}
+
+.care-content h2 {
+  color: var(--font-color);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.care-content h3 {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.care-content p {
+  color: var(--font-color-1);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.care-image {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.care-image-container {
+  text-align: center;
+}
+
+.care-left-col p {
+  color: var(--font-color-1);
+  font-size: 24px;
+  font-weight: 400;
+}
