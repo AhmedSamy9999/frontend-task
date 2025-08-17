@@ -85,7 +85,7 @@
               >التبرع الان</a
             >
             <a
-              dir="ltr"
+              dir="auto"
               href="#contact"
               class="btn btn-secondary-light btn-lg px-4 py-3 d-flex align-items-center gap-2"
             >
@@ -372,7 +372,14 @@
     </section>
 
     <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="py-5 bg-white">
+    <section id="why-choose-us" class="py-5 bg-white position-relative">
+      <div class="why-choose-us-image-container">
+        <img
+          src="./assets/why-you-choose-us.png"
+          alt="Why Choose Us"
+          class="why-choose-us-image"
+        />
+      </div>
       <div class="container">
         <div class="text-center my-5 heading-group">
           <h3 class="subtitle">انضم إلينا في إحداث تأثير إيجابي</h3>
@@ -778,60 +785,71 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4 mb-4 mb-lg-0">
-            <h4 class="text-white mb-4">
-              <i class="fas fa-hand-holding-medical me-2"></i>أطراف صناعية
-            </h4>
-            <p>
-              مركز متخصص في تقديم حلول الأطراف الصناعية والتأهيل الطبي بأحدث
-              التقنيات العالمية وبرامج الرعاية الشاملة.
+        <div class="row gap-5">
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <img
+              src="assets/footer-image.png"
+              alt="Logo"
+              class="footer-logo mb-3"
+            />
+            <p class="footer-description">
+              جمعية رسمية صحية متخصصة بمبتوري الأطراف وتقدم لهم خدمات تساعدهم
+              على مواجهة التحديات والصعوبات وتساهم في تحسين جودة حياتهم، وتمكين
+              قدراتهم الذاتية في خدمة أنفسهم وأسرهم دون الحاجة لمساعة الآخرين
             </p>
+            <div class="social-icons mt-4">
+              <a href="#"
+                ><img src="./assets/pintrest-icon.svg" alt="Pinterest"
+              /></a>
+              <a href="#"
+                ><img src="./assets/whatsapp-icon.svg" alt="Whatsapp"
+              /></a>
+              <a href="#"
+                ><img src="./assets/facebook-icon.svg" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="./assets/instgram-icon.svg" alt="Instagram"
+              /></a>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
-            <h5 class="text-white mb-4">روابط سريعة</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a href="#">الرئيسية</a></li>
-              <li class="mb-2"><a href="#about">من نحن</a></li>
-              <li class="mb-2"><a href="#services">خدماتنا</a></li>
-              <li class="mb-2"><a href="#technology">التقنيات</a></li>
-              <li class="mb-2"><a href="#contact">اتصل بنا</a></li>
+            <h5 class="text-white mb-4">المميزات</h5>
+            <ul class="list-unstyled px-0">
+              <li class="mb-2"><a href="#">عن بتور</a></li>
+              <li class="mb-2"><a href="#about">البرامج</a></li>
+              <li class="mb-2">
+                <a href="#services">العناية بالاطراف الصناعية</a>
+              </li>
+              <li class="mb-2"><a href="#technology">المركز الاعلامي</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+            <h5 class="text-white mb-4">عن الشركة</h5>
+            <ul class="list-unstyled px-0">
+              <li class="mb-2"><a href="#">الاسئلة الشائعة</a></li>
+              <li class="mb-2"><a href="#">من نحن</a></li>
+              <li class="mb-2"><a href="#">تواصل معنا</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
-            <h5 class="text-white mb-4">خدماتنا</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a href="#">أطراف علوية</a></li>
-              <li class="mb-2"><a href="#">أطراف سفلية</a></li>
-              <li class="mb-2"><a href="#">أطراف ذكية</a></li>
-              <li class="mb-2"><a href="#">تأهيل طبيعي</a></li>
-              <li class="mb-2"><a href="#">دعم نفسي</a></li>
+            <h5 class="text-white mb-4">تواصل معنا</h5>
+            <ul class="list-unstyled px-0">
+              <li class="mb-2 footer-sub-title">العنوان</li>
+              <li class="mb-2">الرياض - حي المروج</li>
+              <li class="mb-2 footer-sub-title">البريد الالكتروني</li>
+              <li class="mb-2">APP@Gmail.com</li>
+              <li class="mb-2 footer-sub-title">للاستشارات</li>
+              <li class="mb-2" dir="auto">(+966) 8896-2220</li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-4">
-            <h5 class="text-white mb-4">النشرة الإخبارية</h5>
-            <p>اشترك في نشرتنا الإخبارية لتصلك آخر التحديثات والعروض</p>
-            <form>
-              <div class="input-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="بريدك الإلكتروني"
-                />
-                <button class="btn btn-primary" type="submit">اشترك</button>
-              </div>
-            </form>
-          </div>
         </div>
-        <hr class="mt-4 mb-4" style="border-color: rgba(255, 255, 255, 0.1)" />
+        <hr class="mt-4 mb-4" />
         <div class="row align-items-center">
-          <div class="col-md-6 text-center text-md-start">
-            <p class="mb-md-0">
-              © 2023 مركز الأطراف الصناعية. جميع الحقوق محفوظة.
-            </p>
-          </div>
           <div class="col-md-6 text-center text-md-end">
-            <ul class="list-inline mb-0">
+            <p dir="auto" class="mb-md-0">© 2024 App . جميع الحقوق محفوظة.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-start">
+            <ul class="list-inline mb-0 gap-4 d-flex justify-content-end">
               <li class="list-inline-item"><a href="#">سياسة الخصوصية</a></li>
               <li class="list-inline-item"><a href="#">شروط الاستخدام</a></li>
             </ul>
