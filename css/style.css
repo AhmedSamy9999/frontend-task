@@ -4,10 +4,11 @@
   --primary: #897ae3;
   --primary-hover: #9d8bff;
   --primary-active: #7f6fd8;
+  --secondary-bg-section: #e5e2f7;
   --secondary: #3a9dca;
   --font-color: #101840;
   --font-color-1: #6d738f;
-  --border-about-color: #e6e8f0;
+  --divider-color: #e6e8f0;
   --accent: #f8a72a;
   --light: #f8f9fa;
   --dark: #1e3a5f;
@@ -51,17 +52,6 @@ body {
   margin-bottom: 45px;
   font-weight: 700;
   color: var(--dark);
-}
-
-.section-title:after {
-  content: "";
-  position: absolute;
-  width: 80px;
-  height: 4px;
-  background: var(--primary);
-  bottom: -15px;
-  right: 50%;
-  transform: translateX(50%);
 }
 
 .feature-card {
@@ -217,7 +207,7 @@ body {
 .btn-primary {
   background: var(--primary);
   border: none;
-  padding: 12px 30px;
+  padding: 14px 30px;
   border-radius: 8px;
   font-weight: 600;
   transition: all 0.3s;
@@ -318,7 +308,7 @@ body {
 
 .about-card {
   background-color: transparent;
-  border: 1px solid var(--border-about-color);
+  border: 1px solid var(--divider-color);
   border-radius: 8px;
   padding: 2.5rem;
   text-align: center;
@@ -376,4 +366,128 @@ body {
 
 .logo-cloud-bg {
   background-color: #fff;
+}
+
+/* Amputee Health Care Programs Section */
+#amputee-health-care {
+  background-color: var(--secondary-bg-section);
+}
+
+#amputee-health-care .subtitle {
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+#amputee-health-care .main-title {
+  font-weight: 800;
+  color: var(--dark);
+  font-size: 2.5rem;
+}
+
+.program-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.program-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.program-card .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.program-card .card-body {
+  padding: 2rem;
+}
+
+.program-card .card-title {
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 1rem;
+}
+
+.program-card .card-text {
+  color: var(--font-color-1);
+  line-height: 1.6;
+}
+
+.program-card hr {
+  margin: 1.5rem -2rem;
+  border: 1.5px solid var(--divider-color);
+}
+
+.progress-wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--font-color);
+}
+
+.progress-info span:last-child {
+  color: var(--font-color-1);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.progress {
+  height: 16px;
+  border-radius: 9999px;
+}
+
+.progress-bar {
+  background-color: var(--primary);
+  border-radius: 9999px;
+}
+
+.donors-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 16px;
+  color: var(--font-color-1);
+}
+
+.donors-info span:first-child {
+  color: var(--font-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-secondary-icon {
+  background-color: transparent;
+  padding: 14px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.btn-secondary-icon:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary-icon:hover img {
+  filter: brightness(0) invert(1);
 }
