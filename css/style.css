@@ -513,10 +513,16 @@ body {
   border-radius: 8px;
 }
 
+#why-choose-us .accordion-body {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
 #why-choose-us .accordion-button {
   background-color: transparent;
   color: var(--dark);
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 400;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
@@ -549,4 +555,60 @@ body {
 
 #why-choose-us .accordion-button:not(.collapsed) .fa-chevron-down {
   transform: rotate(-180deg);
+}
+
+#blog {
+  background-color: var(--secondary-bg-section);
+}
+
+#blog .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.blog-card .card-body {
+  padding: 1.5rem;
+}
+
+.blog-card .card-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--font-color);
+  margin-bottom: 1rem;
+}
+
+.blog-card .card-date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--font-color);
+}
+
+.blog-card .card-description {
+  color: var(--font-color-1);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
