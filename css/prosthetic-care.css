@@ -21,14 +21,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Almarai", sans-serif;
-  background-color: #f5f9fc;
-  color: #333;
-  line-height: 1.8;
-  overflow-x: hidden;
-}
-
 .hero-section-prosthetic-care {
   background-color: var(--font-color);
   color: white;
@@ -91,6 +83,12 @@ body {
   padding: 80px 0;
 }
 
+.care-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .care-content h2 {
   color: var(--font-color);
   font-size: 48px;
@@ -119,8 +117,61 @@ body {
   text-align: center;
 }
 
+.care-left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .care-left-col p {
   color: var(--font-color-1);
   font-size: 24px;
   font-weight: 400;
+}
+/* Psychological Care Section Styles */
+.psychological-care-section {
+  background-color: var(--secondary-bg-section);
+  padding: 80px 0;
+}
+
+.psychological-care-section h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.psychological-care-section h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--font-color);
+  margin-bottom: 20px;
+}
+
+.psychological-care-section p {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--font-color-1);
+}
+@media (max-width: 768px) {
+  .psychological-care-section h2 {
+    font-size: 36px;
+  }
+
+  .psychological-care-section h3 {
+    font-size: 20px;
+  }
+
+  .psychological-care-section p {
+    font-size: 18px;
+  }
+
+  .psychological-care-section {
+    padding: 60px 0;
+  }
+}
+
+/* CTA Section Styles */
+.cta-section {
+  background-color: #fff;
+  text-align: center;
 }
