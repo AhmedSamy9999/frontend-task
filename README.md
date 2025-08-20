@@ -17,7 +17,6 @@ A clean, responsive frontend implementation for a **prosthetic care** website. D
   * [Installation](#installation)
   * [Development Optional](#development-optional)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 
 ---
@@ -132,13 +131,6 @@ Contributions are welcome! Here's how you can help:
    git push origin feature/my-new-feature
    ```
 6. Create a Pull Request and describe your enhancement
-
----
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-Feel free to adapt, extend, and distribute!
 
 ---
 
