@@ -15,7 +15,7 @@ A clean, responsive frontend implementation for a **prosthetic care** website. D
 
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-  * [Development](#development)
+  * [Development Optional](#development-optional)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -90,9 +90,17 @@ Explore the original design mockups: [View Figma Design](https://www.figma.com/d
      start index.html # Windows
      ```
 
-### Development (Optional)
+### Development Optional
 
-To serve it via a local web server:
+You can run the project locally in two ways:
+
+**Option 1: Live Server Extension (Recommended)**
+
+1. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension in VS Code.
+2. Right-click on `index.html` and choose **Open with Live Server**.
+3. The project will be served at `http://127.0.0.1:5500/` (default).
+
+**Option 2: Python Local Server**
 
 ```bash
 # Using Python 3.x
