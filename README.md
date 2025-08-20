@@ -1,2 +1,139 @@
-# frontend-task
-This project is a frontend implementation for a prosthetic care website. It includes pages for services, programs, and contact information, with a focus on providing support and resources for individuals in need of prosthetic limbs and psychological care.
+# Prosthetic Care Frontend
+
+A clean, responsive frontend implementation for a **prosthetic care** website. Designed to provide vital support and resources for individuals in need of prosthetic limbs and psychological care.
+
+---
+
+## Table of Contents
+
+* [Features](#features)
+* [Live Demo](#live-demo)
+* [Tech Stack](#tech-stack)
+* [Project Structure](#project-structure)
+* [Getting Started](#getting-started)
+
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Development](#development)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+
+---
+
+## Features
+
+* Informational **Services** page detailing available care options
+* **Programs** section highlighting various rehabilitation initiatives
+* **Contact** form for inquiries and support requests
+* Built with **Bootstrap 5** for a responsive and accessible design
+* Clean, well-organized HTML, CSS, and JavaScript codebase
+
+---
+
+## Live Demo
+
+Check out the deployed version: [View Live](https://frontend-task-five-cyan.vercel.app)
+
+---
+
+## Tech Stack
+
+* **HTML5** – Semantic markup for structured and accessible content
+* **CSS3 & Bootstrap 5** – Mobile-first styling and responsive layout
+* **JavaScript (ES6+)** – Interactive features and potential enhancements
+
+---
+
+## Project Structure
+
+```
+/
+├── index.html            # Home / Services page
+├── prosthetic-care.html  # Prosthetic care details and programs
+├── css/                  # Stylesheets (Bootstrap overrides, custom styles)
+├── js/                   # JavaScript files (interactivity enhancements)
+└── assets/               # Media assets (images, icons, etc.)
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* A modern web browser (Chrome, Firefox, Safari, Edge, etc.)
+
+### Installation
+
+1. **Clone** the repo:
+
+   ```bash
+   git clone https://github.com/AhmedSamy9999/frontend-task.git
+   cd frontend-task
+   ```
+
+2. **Open** the landing page:
+
+   * Double-click `index.html`
+   * Or, open it in your browser of choice via command line:
+
+     ```bash
+     open index.html  # macOS
+     start index.html # Windows
+     ```
+
+### Development (Optional)
+
+To serve it via a local web server:
+
+```bash
+# Using Python 3.x
+python3 -m http.server 8000
+open http://localhost:8000
+```
+
+---
+
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature/my-new-feature
+   ```
+3. Make your changes
+4. Commit your work:
+
+   ```bash
+   git commit -m "Add feature"
+   ```
+5. Push:
+
+   ```bash
+   git push origin feature/my-new-feature
+   ```
+6. Create a Pull Request and describe your enhancement
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+Feel free to adapt, extend, and distribute!
+
+---
+
+## Contact
+
+Need help or want to collaborate? Reach out:
+
+* **GitHub Issues/Discussions** – For questions or feature ideas
+* **Email** – (Add your email here if you're comfortable)
+
+---
+
+**Thank you** for exploring this project! Your feedback and engagement are greatly appreciated.
