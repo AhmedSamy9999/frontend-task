@@ -8,6 +8,7 @@ A clean, responsive frontend implementation for a **prosthetic care** website. D
 
 * [Features](#features)
 * [Live Demo](#live-demo)
+* [Figma Design](#figma-design)
 * [Tech Stack](#tech-stack)
 * [Project Structure](#project-structure)
 * [Getting Started](#getting-started)
@@ -34,6 +35,12 @@ A clean, responsive frontend implementation for a **prosthetic care** website. D
 ## Live Demo
 
 Check out the deployed version: [View Live](https://frontend-task-five-cyan.vercel.app)
+
+---
+
+## Figma Design
+
+Explore the original design mockups: [View Figma Design](https://www.figma.com/design/uUUjz2h0Lsuw7SJAZYQgfv/Frontend-task?node-id=0-1&p=f&t=PjiVmoz1avg4BpOK-0)
 
 ---
 
